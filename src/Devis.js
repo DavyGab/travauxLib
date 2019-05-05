@@ -28,7 +28,8 @@ function useFetch(url, defaultData) {
 }
 
 function useFetchData() {
-	const query = 'http://localhost:3000/data.json'
+	const query = 'https://api.travauxlib.com/api/devis-pro/JKusHl8Ba8MABIjdCtLZOe2lxxnUfX'
+	// const query = 'http://localhost:3000/data.json'
     return useFetch(query)
 }
 
